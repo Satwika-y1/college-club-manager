@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/clubs_screen.dart';
+import 'screens/club_details_screen.dart';
 
 void main() {
   runApp(const CollegeClubManagerApp());
@@ -16,7 +16,7 @@ class CollegeClubManagerApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ClubsScreen(),
+      home: const ClubDetailsScreen(),
     );
   }
 }
