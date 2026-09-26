@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/club_announcement_screen.dart';
+import 'screens/feedback_screen.dart';
 
 void main() {
   runApp(const CollegeClubManagerApp());
@@ -37,12 +37,11 @@ class HomeScreen extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) =>
-                    const ClubAnnouncementScreen(),
+                builder: (context) => const FeedbackScreen(),
               ),
             );
           },
-          child: const Text("Club Announcements"),
+          child: const Text("Feedback"),
         ),
       ),
     );
