@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/event_registration_screen.dart';
+
+import 'screens/club_announcement_screen.dart';
 
 void main() {
   runApp(const CollegeClubManagerApp());
@@ -16,7 +17,34 @@ class CollegeClubManagerApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const EventRegistrationScreen(),
+      home: const HomeScreen(),
+    );
+  }
+}
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("College Club Manager"),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) =>
+                    const ClubAnnouncementScreen(),
+              ),
+            );
+          },
+          child: const Text("Club Announcements"),
+        ),
+      ),
     );
   }
 }
