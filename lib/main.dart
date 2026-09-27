@@ -2,47 +2,17 @@ import 'package:flutter/material.dart';
 import 'screens/club_gallery_screen.dart';
 
 void main() {
-  runApp(const CollegeClubManagerApp());
+  runApp(const MyApp());
 }
 
-class CollegeClubManagerApp extends StatelessWidget {
-  const CollegeClubManagerApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'College Club Manager',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const HomeScreen(),
-    );
-  }
-}
-
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("College Club Manager"),
-      ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => const ClubGalleryScreen(),
-              ),
-            );
-          },
-          child: const Text("Club Gallery"),
-        ),
-      ),
+      home: ClubGalleryScreen(),
     );
   }
 }

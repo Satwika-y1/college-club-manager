@@ -1,17 +1,17 @@
-# college_club_manager
+# College Club Manager
 
-A new Flutter project.
+A Flutter application for managing college clubs, members, events, gallery and feedback.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+### Login Screen
+![Login](lib/assets/login.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Dashboard
+![Dashboard](lib/assets/dashboard.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Gallery
+![Gallery](lib/assets/gallery.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Feedback
+![Feedback](lib/assets/feedback.png)
