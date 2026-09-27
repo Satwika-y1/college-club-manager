@@ -1,17 +1,13 @@
-# College Club Manager
-
-A Flutter application for managing college clubs, members, events, gallery and feedback.
-
 ## Screenshots
 
-### Login Screen
-![Login](lib/assets/login.png)
+<h3>Login Screen</h3>
+<img src="lib/assets/login.png" width="600">
 
-### Dashboard
-![Dashboard](lib/assets/dashboard.png)
+<h3>Dashboard</h3>
+<img src="lib/assets/dashboard.png" width="600">
 
-### Gallery
-![Gallery](lib/assets/gallery.png)
+<h3>Gallery</h3>
+<img src="lib/assets/gallery.png" width="600">
 
-### Feedback
-![Feedback](lib/assets/feedback.png)
+<h3>Feedback</h3>
+<img src="lib/assets/feedback.png" width="600">
